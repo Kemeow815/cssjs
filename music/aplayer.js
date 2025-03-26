@@ -4,8 +4,8 @@
     oldLoadAp && oldLoadAp();
 
 new APlayer({
-    container: document.getElementById('aplayer'),
-    fixed: false,
+    container: document.getElementById('player'),
+    fixed: true,
     autoplay: false,
     theme: '#FADFA3',
     loop: 'all',
