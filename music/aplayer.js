@@ -1,4 +1,9 @@
-const ap = new APlayer({
+!(function() {
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+new APlayer({
     container: document.getElementById('aplayer'),
     mini: false,
     autoplay: false,
@@ -28,5 +33,7 @@ const ap = new APlayer({
         //     lrc: 'lrc2.lrc',
         //     theme: '#46718b'
         }
-    ]
-});
+      ]
+    });
+  }
+})();
