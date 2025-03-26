@@ -24,14 +24,14 @@ new APlayer({
             cover: 'https://s2.loli.net/2025/03/23/sqe5bQ8pzB9IWmc.jpg',
             lrc: 'https://music-source.kemeow.top/lrc/1.lrc',
             theme: '#ebd0c2'
-        // },
-        // {
-        //     name: 'name2',
-        //     artist: 'artist2',
-        //     url: 'url2.mp3',
-        //     cover: 'cover2.jpg',
-        //     lrc: 'lrc2.lrc',
-        //     theme: '#46718b'
+        },
+        {
+            name: '纸间逐光',
+            artist: '夕木霜__TEKI / 愛与紀元 / 添墨长白工作室',
+            url: 'http://music.163.com/song/media/outer/url?id=1885246586.mp3',
+            cover: 'https://s2.loli.net/2025/03/26/4zRQ6UOaVrYNA19.jpg',
+            lrc: 'https://music-source.kemeow.top/lrc/2.lrc',
+            theme: '#46718b'
         }
       ]
     });
