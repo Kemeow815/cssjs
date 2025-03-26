@@ -5,10 +5,10 @@
 
         new APlayer({
             container: document.getElementById('aplayer'),
-            fixed: true,
+            mini: true,
             autoplay: false,
             loop: 'all',
-            order: 'random',
+            order: 'list',
             theme: '#b7daff',
             preload: 'none',
             audio: [
