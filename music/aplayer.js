@@ -1,7 +1,7 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    fixed: false,
-	autoplay: true, //自动播放
+    fixed: true,
+    autoplay: false, //自动播放
     audio: [
                 {
             name: '一句话形容不了终极笔记',
