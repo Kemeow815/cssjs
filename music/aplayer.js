@@ -5,7 +5,7 @@
 
 new APlayer({
     container: document.getElementById('aplayer'),
-    mini: false,
+    mini: true,
     autoplay: false,
     theme: '#FADFA3',
     loop: 'all',
@@ -13,7 +13,7 @@ new APlayer({
     preload: 'auto',
     volume: 0.7,
     mutex: true,
-    listFolded: false,
+    listFolded: true,
     listMaxHeight: 90,
     lrcType: 3,
     audio: [
