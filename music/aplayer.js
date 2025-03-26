@@ -5,7 +5,7 @@
 
 new APlayer({
     container: document.getElementById('player'),
-    mini: true,
+    mini: false,
     autoplay: false,
     theme: '#FADFA3',
     loop: 'all',
